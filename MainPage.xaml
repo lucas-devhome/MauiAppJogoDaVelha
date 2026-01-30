@@ -45,7 +45,7 @@
 
                         <VisualState x:Name="Normal" />
 
-                        <!-- Pressionado -->
+                        <!-- Botão Pressionado -->
                         <VisualState x:Name="Pressed">
                             <VisualState.Setters>
                                 <Setter Property="BackgroundColor" Value="White" />
@@ -53,7 +53,7 @@
                             </VisualState.Setters>
                         </VisualState>
 
-                        <!-- Jogada já feita -->
+                        <!-- Jogada já feita - Botão desabilitado -->
                         <VisualState x:Name="Disabled">
                             <VisualState.Setters>
                                 <Setter Property="BackgroundColor" Value="White" />
